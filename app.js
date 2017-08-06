@@ -40,3 +40,26 @@ h1("this is another header")
 h1("this is the third header")
 h1("this code is so reusable")
 h1("and so easy to use")
+
+var alerts = function (text) {
+
+    var div = $("<div>").addClass("alert alert-success");
+    var alertText = (text)
+    var divClose = $("</div>")
+
+    div.append(alertText, divClose)
+
+    $("body").append(div)
+
+
+}
+
+alerts("This is an alert")
+alerts("This is another alert")
+alerts("Theres so many alerts")
+alerts("and theyre so easy to make")
+
+
+
+
+//<div class="alert alert-success" role="alert">...</div>
