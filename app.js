@@ -18,3 +18,6 @@ var app = function (first, last) {
 }
 
 app("Firstname", "Lastname");
+app("Address", "Phone");
+app("Job Title", "Salary");
+app("Location", "Education");
