@@ -1,4 +1,4 @@
-var app = function (first, last) {
+var forms = function (first, last) {
 
     var form = $("<form>");
 
@@ -17,7 +17,26 @@ var app = function (first, last) {
     $("body").append(form)
 }
 
-app("Firstname", "Lastname");
-app("Address", "Phone");
-app("Job Title", "Salary");
-app("Location", "Education");
+forms("Firstname", "Lastname");
+forms("Address", "Phone");
+forms("Job Title", "Salary");
+forms("Location", "Education");
+
+
+var h1 = function (text) {
+
+    var h1Tag = $("<h1>");
+    var h1TagEnd = $("</h1>")
+    var h1Input = (text);
+
+    h1Tag.append(h1Tag, h1Input, h1TagEnd)
+
+    $("body").append(h1Tag)
+
+}
+
+h1("this is a header")
+h1("this is another header")
+h1("this is the third header")
+h1("this code is so reusable")
+h1("and so easy to use")
