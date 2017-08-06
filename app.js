@@ -3,12 +3,12 @@ var forms = function (first, last) {
     var form = $("<form>");
 
     var firstnameInput = $("<input>");
-        firstname = $("<label>");
-        firstname.text(first);
+    firstname = $("<label>");
+    firstname.text(first);
 
     var lastnameInput = $("<input>");
-        lastname = $("<label>");
-        lastname.text(last);
+    lastname = $("<label>");
+    lastname.text(last);
 
     var break1 = $("<br>");
 
@@ -59,7 +59,3 @@ alerts("This is another alert")
 alerts("Theres so many alerts")
 alerts("and theyre so easy to make")
 
-
-
-
-//<div class="alert alert-success" role="alert">...</div>
