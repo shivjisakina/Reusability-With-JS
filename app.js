@@ -12,4 +12,9 @@ var app = function (first, last) {
 
     var break1 = $("<br>");
 
+    form.append(firstname, firstnameInput, break1, lastname, lastnameInput)
+
+    $("body").append(form)
 }
+
+app("Firstname", "Lastname");
